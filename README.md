@@ -7,6 +7,10 @@
 
 Claudot is a 12-key macropad.
 
+![image](layout/image.svg)
+
+## Layout
+
 ![Keyboard layout](layout/keyboard-layout.png)
 
 Its name comes from the Japanese punctuation mark '。', known as **"句点"** (*ku-ten*, pronounced [koo-ten]), which means *period* or *full stop*.
