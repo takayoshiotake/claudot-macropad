@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf")
-	(tags "QFN-56")
+	(tags "QFN-56, C2040")
 	(property "Reference" "REF**"
 		(at 0 -4.556 0)
 		(unlocked yes)
