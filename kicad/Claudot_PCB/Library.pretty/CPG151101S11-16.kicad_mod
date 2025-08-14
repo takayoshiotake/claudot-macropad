@@ -3,6 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "http://www.kailh.com/product/Ms/rcb/CPG151101S11-16.pdf")
+	(tags "C5156480")
 	(property "Reference" "REF**"
 		(at 0 3.779 180)
 		(unlocked yes)
