@@ -353,17 +353,19 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -6.725 -1.27)
 		(size 2.55 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
 		(uuid "665ffcdd-cfa8-4069-a388-fb84af1a1bfc")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 6.725 1.27)
 		(size 2.55 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
 		(thermal_bridge_angle 45)
 		(uuid "14336c82-b8db-4c70-a676-8352362ea428")
 	)
