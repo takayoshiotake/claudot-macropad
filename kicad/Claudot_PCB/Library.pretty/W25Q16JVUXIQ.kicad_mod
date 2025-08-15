@@ -231,4 +231,15 @@
 		(uuid "c900c7c2-5e0d-4a6f-9bf5-52377dc2be3e")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/Winbond_USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )
