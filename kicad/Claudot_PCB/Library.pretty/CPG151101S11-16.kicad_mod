@@ -522,4 +522,15 @@
 		(uuid "14336c82-b8db-4c70-a676-8352362ea428")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Library.pretty/CPG151101S11-16.step"
+		(offset
+			(xyz 0.625 3.81 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
 )
