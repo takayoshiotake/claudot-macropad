@@ -357,8 +357,8 @@
 		(uuid "8c5a9da4-cdf4-4431-8d15-061a1979e83f")
 	)
 	(fp_circle
-		(center -3.1 -2.6)
-		(end -2.9 -2.6)
+		(center -2.6 -2.6)
+		(end -2.4 -2.6)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -851,4 +851,15 @@
 		(uuid "486e42a8-ccd7-4296-b46d-c1c0b1981be4")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
