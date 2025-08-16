@@ -75,8 +75,8 @@
 		(uuid "a58b04f3-36e4-42da-86aa-61eda33c8f70")
 	)
 	(fp_rect
-		(start -0.95 -0.45)
-		(end 0.95 0.45)
+		(start -0.9 -0.45)
+		(end 0.9 0.45)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -112,7 +112,7 @@
 		(at -0.5 0)
 		(size 0.5 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
+		(roundrect_rratio 0.3)
 		(thermal_bridge_angle 45)
 		(uuid "a174c06a-1955-43a3-8e77-9fc534fcad45")
 	)
@@ -120,7 +120,7 @@
 		(at 0.5 0)
 		(size 0.5 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
+		(roundrect_rratio 0.3)
 		(thermal_bridge_angle 45)
 		(uuid "bc07a073-7f19-4c83-ac12-f1922f819630")
 	)

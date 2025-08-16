@@ -815,7 +815,7 @@
 		(at 0 0)
 		(size 3.2 3.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.045)
+		(roundrect_rratio 0.046875)
 		(uuid "3dce0981-7c03-47d9-bb90-fe6b50ff63a7")
 	)
 	(pad "57" thru_hole circle
