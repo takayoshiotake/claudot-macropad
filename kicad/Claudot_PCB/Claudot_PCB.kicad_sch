@@ -3527,6 +3527,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 97.79) (xy 24.13 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce05ad5-5686-4b14-bf6f-d2f96bbb0b61")
+	)
+	(wire
+		(pts
 			(xy 50.8 125.73) (xy 55.88 125.73)
 		)
 		(stroke
@@ -3557,6 +3567,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 102.87) (xy 29.21 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54e0b5fc-edc5-4d4c-9a7b-c4ec541de5fc")
+	)
+	(wire
+		(pts
 			(xy 50.8 133.35) (xy 55.88 133.35)
 		)
 		(stroke
@@ -3574,6 +3594,16 @@
 			(type default)
 		)
 		(uuid "5b9699ec-217f-43c4-9d6e-c657c6bd22fb")
+	)
+	(wire
+		(pts
+			(xy 34.29 102.87) (xy 36.83 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d557d0f-1566-4ab0-b2d1-a7aebcb6d63a")
 	)
 	(wire
 		(pts
@@ -3907,6 +3937,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 97.79) (xy 36.83 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c410d589-f043-499d-bc29-a91780004bd5")
+	)
+	(wire
+		(pts
 			(xy 63.5 38.1) (xy 63.5 39.37)
 		)
 		(stroke
@@ -4034,6 +4074,94 @@
 			(type default)
 		)
 		(uuid "f7070807-9d1d-42fe-8ba7-c7fe9a1ed7b6")
+	)
+	(global_label "D-"
+		(shape input)
+		(at 55.88 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "184e21ef-d6f1-4aa7-8449-aa92390ab9d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.6245 112.9506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D+"
+		(shape input)
+		(at 55.88 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a33c0935-6bee-471b-a6ac-dedf923400aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.6245 110.4106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D+"
+		(shape input)
+		(at 36.83 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a6ba4969-7b4b-4e6d-94ad-81a02fda03a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.0855 97.7106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D-"
+		(shape input)
+		(at 36.83 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ccab4f6a-9565-49be-bf5b-7f1c78056dba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.0855 102.7906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6278,6 +6406,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 31.75 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c281833-e5e4-470e-b347-bd2bfc565d40")
+		(property "Reference" "R6"
+			(at 31.75 100.965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "27"
+			(at 31.75 104.775 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:R_0402"
+			(at 31.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C352446"
+			(at 31.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eca218b8-807f-43e5-902a-68e89c85ebae")
+		)
+		(pin "2"
+			(uuid "1ff6d6fd-c8bd-4e3e-b9b7-f661f7e225f1")
+		)
+		(instances
+			(project "Claudot_PCB"
+				(path "/b6441ed1-c95a-4390-a03e-fa97979a870e"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 44.45 26.67 90)
 		(unit 1)
@@ -6634,6 +6837,81 @@
 			(project "Claudot_PCB"
 				(path "/b6441ed1-c95a-4390-a03e-fa97979a870e"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 26.67 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "895d01b5-0e3d-4275-8ba7-a887a9b7a363")
+		(property "Reference" "R5"
+			(at 26.67 95.885 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "27"
+			(at 26.67 99.695 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:R_0402"
+			(at 26.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C352446"
+			(at 26.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae31ca6a-6cb8-4702-9aff-9150f670d093")
+		)
+		(pin "2"
+			(uuid "250588cb-b348-4f0a-bde8-611dc9386f71")
+		)
+		(instances
+			(project "Claudot_PCB"
+				(path "/b6441ed1-c95a-4390-a03e-fa97979a870e"
+					(reference "R5")
 					(unit 1)
 				)
 			)
