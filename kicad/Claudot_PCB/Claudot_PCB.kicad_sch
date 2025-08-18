@@ -10209,7 +10209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Pico-EZmate_78171-0004_1x04-1MP_P1.20mm_Vertical"
+		(property "Footprint" "Library:AFC01-S04FCC-00"
 			(at 31.75 73.66 0)
 			(effects
 				(font
