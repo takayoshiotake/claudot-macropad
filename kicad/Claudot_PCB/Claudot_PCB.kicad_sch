@@ -1180,6 +1180,151 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Library:SKRP_Switch"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SKRP_Switch"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Library:SKRP_Switch"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SKRP_Switch_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SKRP_Switch_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "2" passive line)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "4" passive line)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Library:W25Q16JVUXIQ"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3527,7 +3672,7 @@
 		(uuid "645cd399-36b2-45ce-bad3-962c49bda867")
 	)
 	(junction
-		(at 58.42 181.61)
+		(at 48.26 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68c0d15a-d96d-4123-ad24-a2b1e46a11b7")
@@ -4182,7 +4327,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 181.61) (xy 58.42 181.61)
+			(xy 45.72 189.23) (xy 48.26 189.23)
 		)
 		(stroke
 			(width 0)
@@ -4292,7 +4437,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 181.61) (xy 60.96 181.61)
+			(xy 48.26 189.23) (xy 50.8 189.23)
 		)
 		(stroke
 			(width 0)
@@ -4342,7 +4487,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 179.07) (xy 58.42 181.61)
+			(xy 48.26 186.69) (xy 48.26 189.23)
 		)
 		(stroke
 			(width 0)
@@ -4372,9 +4517,31 @@
 			)
 		)
 	)
-	(global_label "QSPI_SS_N"
+	(global_label "~{RESET}"
 		(shape input)
-		(at 60.96 181.61 0)
+		(at 40.64 173.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39060bac-1b14-4290-a0db-40125db80998")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.3703 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI_SS"
+		(shape input)
+		(at 50.8 189.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4384,7 +4551,7 @@
 		)
 		(uuid "39c1c7e8-41e2-4ce0-b6df-7e9c288a1fe2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.0447 181.61 0)
+			(at 61.5866 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4482,7 +4649,7 @@
 			)
 		)
 	)
-	(global_label "QSPI_SS_N"
+	(global_label "QSPI_SS"
 		(shape output)
 		(at 53.34 118.11 90)
 		(fields_autoplaced yes)
@@ -4494,7 +4661,7 @@
 		)
 		(uuid "c51e6465-bbc9-4a00-8bcb-feac6116105d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.34 105.0253 90)
+			(at 53.34 107.3234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5902,7 +6069,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 58.42 173.99 0)
+		(at 48.26 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5910,7 +6077,7 @@
 		(dnp no)
 		(uuid "3d539679-ae8b-4ccf-89ef-22b7a25aa507")
 		(property "Reference" "#PWR024"
-			(at 58.42 177.8 0)
+			(at 48.26 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5919,7 +6086,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 58.42 170.18 0)
+			(at 48.26 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5928,7 +6095,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 173.99 0)
+			(at 48.26 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5937,7 +6104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 173.99 0)
+			(at 48.26 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5946,7 +6113,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 173.99 0)
+			(at 48.26 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5961,6 +6128,72 @@
 			(project "Claudot_PCB"
 				(path "/b6441ed1-c95a-4390-a03e-fa97979a870e"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f2fd767-84d5-4e4c-9b2c-a6f129394dcd")
+		(property "Reference" "#PWR027"
+			(at 30.48 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63a444b3-6465-4715-b4d2-658465bf1788")
+		)
+		(instances
+			(project "Claudot_PCB"
+				(path "/b6441ed1-c95a-4390-a03e-fa97979a870e"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -6168,6 +6401,74 @@
 			(project "Claudot_PCB"
 				(path "/b6441ed1-c95a-4390-a03e-fa97979a870e"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:SKRP_Switch")
+		(at 35.56 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4260ec64-8f32-4a2a-a6cd-c2952c52cfd9")
+		(property "Reference" "SW_R1"
+			(at 35.56 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKRP_Switch"
+			(at 35.56 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:SKRP_Switch"
+			(at 35.56 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a753e22-faeb-41f5-a5de-6ff9382f682f")
+		)
+		(pin "3"
+			(uuid "7fc8210f-57e9-4ff6-a2ed-71098b4352c2")
+		)
+		(instances
+			(project ""
+				(path "/b6441ed1-c95a-4390-a03e-fa97979a870e"
+					(reference "SW_R1")
 					(unit 1)
 				)
 			)
@@ -6398,7 +6699,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 58.42 176.53 0)
+		(at 48.26 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6406,7 +6707,7 @@
 		(dnp no)
 		(uuid "49cb2e5f-d579-42ed-9eb8-a505fe65f274")
 		(property "Reference" "R3"
-			(at 57.404 176.53 0)
+			(at 47.244 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6415,7 +6716,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 60.325 176.53 90)
+			(at 50.165 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6423,7 +6724,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 58.42 176.53 0)
+			(at 48.26 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6432,7 +6733,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 176.53 0)
+			(at 48.26 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6441,7 +6742,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 176.53 0)
+			(at 48.26 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6450,7 +6751,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 58.42 176.53 0)
+			(at 48.26 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8166,6 +8467,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 30.48 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f13b6e9-58ae-4a8c-a977-f6904c4b2de5")
+		(property "Reference" "#PWR026"
+			(at 30.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7fcef75-3a43-479e-96cf-a00ecb5b0056")
+		)
+		(instances
+			(project "Claudot_PCB"
+				(path "/b6441ed1-c95a-4390-a03e-fa97979a870e"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_RaspberryPi:RP2040")
 		(at 104.14 140.97 0)
 		(unit 1)
@@ -8842,7 +9209,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 53.34 181.61 270)
+		(at 43.18 189.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8850,7 +9217,7 @@
 		(dnp no)
 		(uuid "bbe5df03-42eb-498a-bbe4-79f2f37e7c26")
 		(property "Reference" "R4"
-			(at 53.34 179.705 90)
+			(at 43.18 187.325 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8858,7 +9225,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 53.34 183.515 90)
+			(at 43.18 191.135 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8866,7 +9233,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 53.34 181.61 0)
+			(at 43.18 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8875,7 +9242,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 181.61 0)
+			(at 43.18 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8884,7 +9251,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 181.61 0)
+			(at 43.18 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8893,7 +9260,7 @@
 			)
 		)
 		(property "LCSC" "C11702"
-			(at 53.34 181.61 0)
+			(at 43.18 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9719,6 +10086,74 @@
 			(project "Claudot_PCB"
 				(path "/b6441ed1-c95a-4390-a03e-fa97979a870e"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:SKRP_Switch")
+		(at 35.56 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbe04131-5ef6-42b6-8974-56c8a5cfdfb8")
+		(property "Reference" "SW_B1"
+			(at 35.56 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SKRP_Switch"
+			(at 35.56 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:SKRP_Switch"
+			(at 35.56 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15409496-f56f-4693-948e-e4a731b545ff")
+		)
+		(pin "3"
+			(uuid "f7f3ecb3-b831-411b-a575-08794ff46bea")
+		)
+		(instances
+			(project "Claudot_PCB"
+				(path "/b6441ed1-c95a-4390-a03e-fa97979a870e"
+					(reference "SW_B1")
 					(unit 1)
 				)
 			)
