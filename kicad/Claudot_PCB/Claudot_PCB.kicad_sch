@@ -10685,7 +10685,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "AFC01-S04FCC-00"
 			(at 34.29 76.1999 0)
 			(effects
 				(font
