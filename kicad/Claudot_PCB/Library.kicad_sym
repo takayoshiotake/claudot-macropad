@@ -588,7 +588,7 @@
 						)
 					)
 				)
-				(number "S1"
+				(number "S"
 					(effects
 						(font
 							(size 1.27 1.27)

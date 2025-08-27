@@ -8,7 +8,7 @@
 		(at 0 -3.53 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "26e1c9a5-a656-41d9-b8ab-b689ea56394e")
+		(uuid "2d6eebe7-e0cb-41e1-87d2-04b395b29e8a")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 1.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "e41c5707-8d1a-4633-ade3-06da54395557")
+		(uuid "0c5de2bd-0d83-4a5a-bbbb-1e26058df879")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5b8224c5-4b0f-4e25-8a07-c74052bfb8fe")
+		(uuid "a0d31e2b-6263-42a1-98f5-026ba09d9bd2")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "66a23770-3c56-4893-ba90-46582412a623")
+		(uuid "c4e3943a-abe3-4374-9ef5-f776a7e4a7e9")
 		(effects
 			(font
 				(size 1 1)
@@ -63,7 +63,7 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "041df440-c9f9-409a-98b7-afecd23826c2")
 	)
 	(fp_line
@@ -127,8 +127,8 @@
 		(uuid "824c3d0f-9c33-4284-9b9e-f67335586f76")
 	)
 	(pad "A1" smd roundrect
-		(at -3.2 -2.276)
-		(size 0.6 1.14)
+		(at -3.2 -2.296)
+		(size 0.6 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "d7ad91f4-27a1-40cc-bcf8-050381cc00fc")
@@ -169,8 +169,8 @@
 		(uuid "ab1ce652-3786-46b9-9662-4b2c3cec038d")
 	)
 	(pad "B1" smd roundrect
-		(at 3.2 -2.276)
-		(size 0.6 1.14)
+		(at 3.2 -2.296)
+		(size 0.6 1.1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "5d4e6b25-1f8e-4bb0-99ff-c0917e77ad59")
@@ -258,10 +258,10 @@
 		(min_thickness 0.25)
 		(filled_areas_thickness no)
 		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
-			(copperpour allowed)
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
 			(footprints allowed)
 		)
 		(placement
