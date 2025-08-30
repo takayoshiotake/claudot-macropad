@@ -7439,7 +7439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMF"
+		(property "Footprint" "Library:SMF6.0A"
 			(at 106.68 143.51 0)
 			(effects
 				(font
@@ -7448,7 +7448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/doc?85881"
+		(property "Datasheet" "~"
 			(at 111.76 142.24 0)
 			(effects
 				(font
@@ -7457,8 +7457,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 6Vrwm, SMF"
+		(property "Description" ""
 			(at 111.76 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C178260"
+			(at 111.76 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9727,7 +9736,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 86.36 147.32 270)
+		(at 86.36 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9735,7 +9744,7 @@
 		(dnp no)
 		(uuid "805176e1-eeb0-44c3-bfaf-6629cd261598")
 		(property "Reference" "R7"
-			(at 86.36 145.415 90)
+			(at 86.36 149.225 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9743,7 +9752,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 86.36 149.225 90)
+			(at 86.36 145.415 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12034,7 +12043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+		(property "Footprint" "Library:F_1206"
 			(at 110.49 138.43 0)
 			(effects
 				(font
@@ -13149,7 +13158,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 91.44 152.4 270)
+		(at 91.44 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13157,7 +13166,7 @@
 		(dnp no)
 		(uuid "ed9a754a-2257-4c25-91a5-500f4c8acca6")
 		(property "Reference" "R8"
-			(at 91.44 150.495 90)
+			(at 91.44 154.305 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13165,7 +13174,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 91.44 154.305 90)
+			(at 91.44 150.495 90)
 			(effects
 				(font
 					(size 1.27 1.27)
