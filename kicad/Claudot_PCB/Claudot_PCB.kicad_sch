@@ -8495,7 +8495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Library:R_0402"
 			(at 140.97 139.7 0)
 			(effects
 				(font
@@ -11657,7 +11657,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 146.05 144.78 270)
+		(at 146.05 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11665,14 +11665,6 @@
 		(dnp no)
 		(uuid "bbe5df03-42eb-498a-bbe4-79f2f37e7c26")
 		(property "Reference" "R4"
-			(at 146.05 142.875 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
 			(at 146.05 146.685 90)
 			(effects
 				(font
@@ -11680,7 +11672,15 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Value" "1K"
+			(at 146.05 142.875 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:R_0402"
 			(at 146.05 144.78 0)
 			(effects
 				(font
