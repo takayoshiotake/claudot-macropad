@@ -8763,13 +8763,13 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x12")
-		(at 104.14 96.52 0)
+		(at 104.14 99.06 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "31d4ca3f-29fd-45ef-9a0b-6d9f7155fb4a")
 		(property "Reference" "J3"
 			(at 106.68 96.5199 0)
@@ -8790,7 +8790,7 @@
 			)
 		)
 		(property "Footprint" "Library:AFC01-S12FCC-00"
-			(at 104.14 96.52 0)
+			(at 104.14 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8799,7 +8799,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 96.52 0)
+			(at 104.14 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8808,7 +8808,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 104.14 96.52 0)
+			(at 104.14 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14303,7 +14303,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC12E_Vertical_H20mm"
+		(property "Footprint" "Library:EC12E"
 			(at 104.14 58.166 0)
 			(effects
 				(font
