@@ -6,7 +6,7 @@
 	(descr "http://www.kailh.com/product/Ms/rcb/CPG151101S11-16.pdf")
 	(tags "C5156480")
 	(property "Reference" "REF**"
-		(at 0 3.779 180)
+		(at -1.27 1.27 180)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "85a413a6-27e9-43de-8034-2320d0a801d8")
