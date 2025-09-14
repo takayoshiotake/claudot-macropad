@@ -1259,16 +1259,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 1.27 2.54 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "SKRP_Switch"
-				(at 0 -1.524 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1276,7 +1275,7 @@
 				)
 			)
 			(property "Footprint" "Library:SKRP_Switch"
-				(at 0 5.08 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1303,6 +1302,53 @@
 				)
 			)
 			(symbol "SKRP_Switch_0_1"
+				(rectangle
+					(start -5.08 2.54)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -1349,10 +1395,34 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.81 -2.54) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
 			(symbol "SKRP_Switch_1_1"
 				(pin passive line
-					(at -5.08 0 0)
+					(at -7.62 0 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -1370,10 +1440,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -7.62 -2.54 0)
 					(length 2.54)
-					(hide yes)
-					(name "2"
+					(name "r"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1389,7 +1458,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 7.62 0 180)
 					(length 2.54)
 					(name "3"
 						(effects
@@ -1407,9 +1476,8 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 7.62 -2.54 180)
 					(length 2.54)
-					(hide yes)
 					(name "4"
 						(effects
 							(font
@@ -4257,6 +4325,12 @@
 		(uuid "74b42129-68fa-4a38-bdb7-e29fe1948ca9")
 	)
 	(junction
+		(at 129.54 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75745647-d33e-4c02-b8dc-308637dd4b95")
+	)
+	(junction
 		(at 50.8 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4377,6 +4451,12 @@
 		(uuid "fb427696-f6df-48ea-b9d7-ed43e06bd4c4")
 	)
 	(junction
+		(at 140.97 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd41fdc2-d8e4-4a85-a92f-08009de35842")
+	)
+	(junction
 		(at 137.16 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4441,6 +4521,16 @@
 			(type default)
 		)
 		(uuid "161499b6-f772-4afb-a2a0-c35a8b473b36")
+	)
+	(wire
+		(pts
+			(xy 140.97 144.78) (xy 140.97 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a4086a-b24f-4875-b70b-90df45198c2f")
 	)
 	(wire
 		(pts
@@ -5194,6 +5284,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 119.38) (xy 129.54 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcad2a7d-f7bc-40e2-a6c4-1495c5d49ea5")
+	)
+	(wire
+		(pts
 			(xy 118.11 142.24) (xy 118.11 144.78)
 		)
 		(stroke
@@ -5248,7 +5348,7 @@
 	)
 	(global_label "~{RESET}"
 		(shape input)
-		(at 114.3 129.54 180)
+		(at 114.3 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5258,7 +5358,7 @@
 		)
 		(uuid "39060bac-1b14-4290-a0db-40125db80998")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.5697 129.54 0)
+			(at 105.5697 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6668,73 +6768,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 144.78 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f2fd767-84d5-4e4c-9b2c-a6f129394dcd")
-		(property "Reference" "#PWR027"
-			(at 135.89 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "63a444b3-6465-4715-b4d2-658465bf1788")
-		)
-		(instances
-			(project "Claudot_MCU"
-				(path "/b6441ed1-c95a-4390-a03e-fa97979a870e"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 187.96 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6942,7 +6975,7 @@
 	)
 	(symbol
 		(lib_id "Library:SKRP_Switch")
-		(at 119.38 129.54 0)
+		(at 121.92 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6950,7 +6983,7 @@
 		(dnp no)
 		(uuid "4260ec64-8f32-4a2a-a6cd-c2952c52cfd9")
 		(property "Reference" "SW1"
-			(at 119.38 121.92 0)
+			(at 121.92 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6958,7 +6991,7 @@
 			)
 		)
 		(property "Value" "SKRP_Switch"
-			(at 119.38 124.46 0)
+			(at 121.92 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6966,7 +6999,7 @@
 			)
 		)
 		(property "Footprint" "Library:SKRP_Switch"
-			(at 119.38 124.46 0)
+			(at 121.92 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6975,7 +7008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 124.46 0)
+			(at 121.92 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6984,7 +7017,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 129.54 0)
+			(at 121.92 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8586,6 +8619,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 140.97 147.32 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a149956-307d-4ca2-abf9-e020bbbcbc35")
+		(property "Reference" "#PWR040"
+			(at 140.97 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d10767c7-e18f-4240-9ada-afd63926cbd7")
+		)
+		(instances
+			(project "Claudot_MCU"
+				(path "/b6441ed1-c95a-4390-a03e-fa97979a870e"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:TYPE-C-31-M-12")
 		(at 35.56 45.72 0)
 		(unit 1)
@@ -9280,73 +9380,6 @@
 			(project "Claudot_MCU"
 				(path "/b6441ed1-c95a-4390-a03e-fa97979a870e"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 124.46 129.54 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f13b6e9-58ae-4a8c-a977-f6904c4b2de5")
-		(property "Reference" "#PWR026"
-			(at 124.46 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e7fcef75-3a43-479e-96cf-a00ecb5b0056")
-		)
-		(instances
-			(project "Claudot_MCU"
-				(path "/b6441ed1-c95a-4390-a03e-fa97979a870e"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10252,6 +10285,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 129.54 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d265d6dc-c05c-429b-a6b1-0e15aba3d7d3")
+		(property "Reference" "#PWR039"
+			(at 129.54 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d51eccc2-76e4-4475-b574-a62553320c44")
+		)
+		(instances
+			(project "Claudot_MCU"
+				(path "/b6441ed1-c95a-4390-a03e-fa97979a870e"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 172.72 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10318,7 +10418,7 @@
 	)
 	(symbol
 		(lib_id "Library:SKRP_Switch")
-		(at 130.81 144.78 0)
+		(at 133.35 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10326,7 +10426,7 @@
 		(dnp no)
 		(uuid "dbe04131-5ef6-42b6-8974-56c8a5cfdfb8")
 		(property "Reference" "SW2"
-			(at 130.81 137.16 0)
+			(at 133.35 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10334,7 +10434,7 @@
 			)
 		)
 		(property "Value" "SKRP_Switch"
-			(at 130.81 139.7 0)
+			(at 133.35 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10342,7 +10442,7 @@
 			)
 		)
 		(property "Footprint" "Library:SKRP_Switch"
-			(at 130.81 139.7 0)
+			(at 133.35 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10351,7 +10451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 139.7 0)
+			(at 133.35 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10360,7 +10460,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 144.78 0)
+			(at 133.35 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
