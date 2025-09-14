@@ -6949,7 +6949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4260ec64-8f32-4a2a-a6cd-c2952c52cfd9")
-		(property "Reference" "SW_R1"
+		(property "Reference" "SW1"
 			(at 119.38 121.92 0)
 			(effects
 				(font
@@ -7007,7 +7007,7 @@
 		(instances
 			(project ""
 				(path "/b6441ed1-c95a-4390-a03e-fa97979a870e"
-					(reference "SW_R1")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -10325,7 +10325,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dbe04131-5ef6-42b6-8974-56c8a5cfdfb8")
-		(property "Reference" "SW_B1"
+		(property "Reference" "SW2"
 			(at 130.81 137.16 0)
 			(effects
 				(font
@@ -10383,7 +10383,7 @@
 		(instances
 			(project "Claudot_MCU"
 				(path "/b6441ed1-c95a-4390-a03e-fa97979a870e"
-					(reference "SW_B1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
