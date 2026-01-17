@@ -8,7 +8,7 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25)"
-   sodipodi:docname="layout-design.svg"
+   sodipodi:docname="image.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="6.9547617"
-     inkscape:cx="451.99248"
-     inkscape:cy="304.53955"
+     inkscape:zoom="1.7386904"
+     inkscape:cx="329.27081"
+     inkscape:cy="253.63917"
      inkscape:window-width="1680"
      inkscape:window-height="1027"
      inkscape:window-x="192"
@@ -525,37 +525,37 @@
          inkscape:label="rect30" />
     </g>
     <g
-       id="g6-3-7-2-9"
-       inkscape:label="rot1"
+       id="g6-3-7-2-2"
+       inkscape:label="key12"
        transform="translate(66.674998,19.050001)">
       <rect
          style="fill:none;stroke:#ff00ff;stroke-width:0.1;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-         id="rect4-7-9-6-45"
+         id="rect4-7-9-6-3"
          width="19.049997"
          height="19.049999"
          x="28.574997"
          y="28.574999"
-         inkscape:label="rect31" />
+         inkscape:label="rect22" />
       <rect
          style="fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-         id="rect5-5-4-0-06"
+         id="rect5-5-4-0-9"
          width="18"
          height="18"
          x="29.099995"
          y="29.099998"
-         rx="9"
-         ry="9"
-         inkscape:label="rect32" />
+         rx="1"
+         ry="1"
+         inkscape:label="rect23" />
       <rect
          style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-         id="rect6-0-1-3-9"
+         id="rect6-0-1-3-97"
          width="14"
          height="14"
          x="31.099997"
          y="30.1"
-         rx="7"
-         ry="7"
-         inkscape:label="rect33" />
+         rx="1"
+         ry="1"
+         inkscape:label="rect24" />
     </g>
   </g>
 </svg>

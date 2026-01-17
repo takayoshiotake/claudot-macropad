@@ -1,11 +1,11 @@
 # Claudot
 
 > *Each thought ends with a dot.*  
-> *But it spins, unsure.*
+> *The dot is a key.*
 
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
-Claudot is an 11-key macropad with a rotary knob.
+Claudot is an 12-key macropad.
 
 ![image](layout/image.svg)
 
@@ -13,9 +13,11 @@ Claudot is an 11-key macropad with a rotary knob.
 
 ![Keyboard layout](layout/keyboard-layout.png)
 
-Its name comes from the Japanese punctuation mark '。', known as **"句点"** (*ku-ten*, pronounced [koo-ten]), which means *period* or *full stop*.
-The word **"句"** (*ku*) can refer to either a phrase or a clause.
-Just as a sentence ends with a dot, this keyboard ends with a rotary encoder.
+Named after the Japanese punctuation mark "。", known as **"句点"** (*ku-ten*, pronounced [koo-ten]) — the Japanese *period* or *full stop*.
+The word **"句"** (*ku*) refers to either a phrase or a clause — a unit of meaning.
+
+Just as a sentence ends with a dot,
+a thought ends with a key.
 
 ## License
 
