@@ -56,6 +56,28 @@
 		)
 	)
 	(attr through_hole)
+	(fp_circle
+		(center -11.9 -7)
+		(end -9.9 -7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "aca8038a-55b9-432b-b154-eea0861a02b7")
+	)
+	(fp_circle
+		(center 11.9 -7)
+		(end 13.9 -7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "88b653b6-e43d-4426-a783-cc271e78e81a")
+	)
 	(fp_rect
 		(start -19.05 -9.525)
 		(end 19.05 9.525)
