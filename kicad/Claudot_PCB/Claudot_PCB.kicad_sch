@@ -3338,7 +3338,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 99.06 83.82 0)
+		(at 99.06 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3346,7 +3346,7 @@
 		(dnp no)
 		(uuid "b47edde6-e69e-4349-af6e-ba12d8874f26")
 		(property "Reference" "#PWR044"
-			(at 99.06 87.63 0)
+			(at 102.87 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3355,7 +3355,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 99.06 80.01 0)
+			(at 95.25 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3363,7 +3363,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 83.82 0)
+			(at 99.06 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3372,7 +3372,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 83.82 0)
+			(at 99.06 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,7 +3381,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 83.82 0)
+			(at 99.06 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,6 +4175,72 @@
 			(project "Claudot_PCB"
 				(path "/b6441ed1-c95a-4390-a03e-fa97979a870e"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff7f20ec-003b-4e4b-88eb-53d62b348eae")
+		(property "Reference" "#PWR01"
+			(at 99.06 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9656047-96de-46e5-9d32-042fd63a0e3f")
+		)
+		(instances
+			(project "Claudot_PCB"
+				(path "/b6441ed1-c95a-4390-a03e-fa97979a870e"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
