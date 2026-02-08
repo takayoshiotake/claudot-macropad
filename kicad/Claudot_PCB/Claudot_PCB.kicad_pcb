@@ -859,7 +859,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148WS"
 			(at 0 -1.5 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -921,6 +921,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "be0707dd-678a-4dee-b7b3-6b53214ba002")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6a540a4f-35c3-4a63-be28-b8d72fc6c14f")
 			(effects
 				(font
 					(size 1 1)
@@ -1256,6 +1270,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2d32d255-f59b-4dd8-a709-55cbb925ccac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a43a29b4-856f-4d2e-8081-99307e04cc67")
 			(effects
 				(font
 					(size 1 1)
@@ -1835,6 +1863,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cf34fbac-f4cb-4808-aa46-ac0b66e9e87e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/bef30d54-6ace-4baf-b975-322d97d0d518")
 		(sheetname "/")
 		(sheetfile "Claudot_PCB.kicad_sch")
@@ -2406,6 +2448,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2286d3f3-6c8f-466d-b82f-0b5b16250184")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/b8949473-35ed-45a4-b10b-0f3fb5b7b6c2")
 		(sheetname "/")
 		(sheetfile "Claudot_PCB.kicad_sch")
@@ -2936,7 +2992,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148WS"
 			(at 0 -1.5 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -2998,6 +3054,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "bde8c33a-4676-44eb-b54b-db53656ed2cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "34c0fa17-af9f-414e-9585-70136c86254a")
 			(effects
 				(font
 					(size 1 1)
@@ -3300,7 +3370,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148WS"
 			(at 0 -1.5 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3362,6 +3432,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a60c2ab6-a576-4082-832c-96a1d59a34e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "da1807ba-a728-465e-ac30-69bca02c00e4")
 			(effects
 				(font
 					(size 1 1)
@@ -3697,6 +3781,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b1b2dfde-103a-4fa0-a1bd-0efc585981cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "88fb3339-4ce9-44c7-9dbf-9bb463c28d40")
 			(effects
 				(font
 					(size 1 1)
@@ -4276,6 +4374,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9235e74d-9542-4f19-a2f8-c7b38a7c601d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/02a339da-a148-4e29-ac01-6613144d9b96")
 		(sheetname "/")
 		(sheetfile "Claudot_PCB.kicad_sch")
@@ -4839,6 +4951,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "29f4215a-9e64-431c-b804-49b80eef6256")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "70e5d3c3-0f97-4951-9d0e-48e36d701c54")
 			(effects
 				(font
 					(size 1 1)
@@ -5418,6 +5544,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d08fc6bb-c80d-4c14-b424-17cbc339719d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/c7c066f2-add5-4798-9103-02d1381206f5")
 		(sheetname "/")
 		(sheetfile "Claudot_PCB.kicad_sch")
@@ -5981,6 +6121,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "cef6f55f-f6e9-4489-8cd7-84ac221285b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "61cd0195-1127-49b9-ab0c-7240e4d8484b")
 			(effects
 				(font
 					(size 1 1)
@@ -6560,6 +6714,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c0a5c5e3-cc47-431e-988f-e64b0a7d2246")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/338322d1-0c12-4c1d-9a89-f4edbcbf8c31")
 		(sheetname "/")
 		(sheetfile "Claudot_PCB.kicad_sch")
@@ -7090,7 +7258,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148WS"
 			(at 0 -1.5 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7152,6 +7320,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "03bc9642-e41e-47fc-8713-54e9641e2b4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ef2f8211-5ebb-4f07-8a73-5ad985b79b10")
 			(effects
 				(font
 					(size 1 1)
@@ -7454,7 +7636,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148WS"
 			(at 0 -1.5 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7516,6 +7698,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b88f264e-8656-444f-b418-c8967b51c3ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "61bdc336-7980-459a-bbb2-b7df00f0fac9")
 			(effects
 				(font
 					(size 1 1)
@@ -7851,6 +8047,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "172d4728-a127-4655-b810-d29ce0722cd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "59ca4c49-b94b-480c-9f0a-09153dfa9a76")
 			(effects
 				(font
 					(size 1 1)
@@ -8389,7 +8599,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148WS"
 			(at 0 -1.5 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8451,6 +8661,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ee626155-6776-44e1-af48-ccfc29f15865")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2520c3b3-9c85-452e-ab9a-c102a389e217")
 			(effects
 				(font
 					(size 1 1)
@@ -8753,7 +8977,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148WS"
 			(at 0 -1.5 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -8815,6 +9039,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "05ee3896-b86b-4b88-8061-dd2eeebed0e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "38bfe40e-50ab-48b4-95f3-c4523651d1b9")
 			(effects
 				(font
 					(size 1 1)
@@ -9157,6 +9395,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C262264"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "803ad162-30af-40b7-8a29-c86a50400408")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b5d5d2c3-3ce6-4526-86c1-817cd8f565e7")
 		(sheetname "/")
@@ -9392,7 +9644,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148WS"
 			(at 0 -1.5 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9454,6 +9706,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5faf7bfb-0034-42fe-b85e-3291faf4cb9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0dd0bec5-b28b-41ab-a7dd-66fd627e37ce")
 			(effects
 				(font
 					(size 1 1)
@@ -9756,7 +10022,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148WS"
 			(at 0 -1.5 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9818,6 +10084,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b1d8ef42-f868-40a9-9266-e830be161598")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "102ba5ff-f8fe-49da-8540-3d862b3480ea")
 			(effects
 				(font
 					(size 1 1)
@@ -10120,7 +10400,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148WS"
 			(at 0 -1.5 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10182,6 +10462,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3ba64a3a-11d8-4b1f-99b0-3423433eb589")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fd53af12-98bf-47c3-b4e6-729df6192783")
 			(effects
 				(font
 					(size 1 1)
@@ -10484,7 +10778,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148WS"
 			(at 0 -1.5 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10546,6 +10840,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "032f55c9-b984-4ef3-bc13-8ffd70447eb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "61fc47e4-d20d-43f3-838d-b1f8eecb114d")
 			(effects
 				(font
 					(size 1 1)
@@ -10881,6 +11189,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "80e9c10a-684c-429e-a378-bf4dd7668922")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e5f60e36-e550-49f7-9ff9-4f078a6d0c9a")
 			(effects
 				(font
 					(size 1 1)
@@ -11419,7 +11741,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148WS"
 			(at 0 -1.5 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11481,6 +11803,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b6185521-53bc-45e5-a95c-1e8cab870fc5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2c58e21a-92b5-4edc-bbd7-eb84e51cf88f")
 			(effects
 				(font
 					(size 1 1)
@@ -11816,6 +12152,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "50dfd5c4-b331-4dc6-8133-b9c0f4a51563")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cc3fb6a6-1185-4bd7-9faf-39980b5000d3")
 			(effects
 				(font
 					(size 1 1)

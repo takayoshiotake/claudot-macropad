@@ -1885,6 +1885,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 50.8 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "11e41670-c5af-4d42-ac8b-cbc589ad1b01")
 		)
@@ -1918,7 +1927,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148WS"
 			(at 85.09 35.5599 90)
 			(effects
 				(font
@@ -1966,6 +1975,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 82.55 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 82.55 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2033,6 +2051,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 31.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41430893"
 			(at 31.75 45.72 0)
 			(effects
 				(font
@@ -2140,7 +2167,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148WS"
 			(at 39.37 35.5599 90)
 			(effects
 				(font
@@ -2195,6 +2222,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 36.83 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "123fe4df-c392-4568-95f3-33ca3c13b9bc")
 		)
@@ -2228,7 +2264,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148WS"
 			(at 107.95 66.0399 90)
 			(effects
 				(font
@@ -2276,6 +2312,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 105.41 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 105.41 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,6 +2388,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 77.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41430893"
 			(at 77.47 30.48 0)
 			(effects
 				(font
@@ -2419,6 +2473,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 92.71 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2c156b03-82d1-41cc-8285-7b706deff10d")
 		)
@@ -2479,6 +2542,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 31.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41430893"
 			(at 31.75 60.96 0)
 			(effects
 				(font
@@ -2555,6 +2627,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 58.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ea7fe943-9b0d-4bff-a5d4-acb34da898e6")
 		)
@@ -2588,7 +2669,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148WS"
 			(at 54.61 35.5599 90)
 			(effects
 				(font
@@ -2643,6 +2724,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 52.07 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ec2789e0-b28f-46ad-9d1f-8e3d6fdc6b60")
 		)
@@ -2676,7 +2766,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148WS"
 			(at 58.42 50.7999 90)
 			(effects
 				(font
@@ -2731,6 +2821,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 55.88 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d97f1106-ebd3-4405-8587-995bdaa46bc3")
 		)
@@ -2764,7 +2863,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148WS"
 			(at 66.04 66.0399 90)
 			(effects
 				(font
@@ -2812,6 +2911,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 63.5 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 63.5 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2887,6 +2995,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 81.28 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "993d574a-0729-4eff-a817-e3f246ad249d")
 		)
@@ -2920,7 +3037,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148WS"
 			(at 100.33 35.5599 90)
 			(effects
 				(font
@@ -2968,6 +3085,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 97.79 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 97.79 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3036,6 +3162,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C262264"
 			(at 104.14 91.44 0)
 			(effects
 				(font
@@ -3130,6 +3265,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 66.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b4847b33-31f6-4855-b0c6-147fe38ee4c3")
 		)
@@ -3190,6 +3334,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 100.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41430893"
 			(at 100.33 60.96 0)
 			(effects
 				(font
@@ -3266,6 +3419,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 31.75 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c737446d-6687-441f-8d5c-b5d17004cd1b")
 		)
@@ -3334,6 +3496,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C41430893"
+			(at 46.99 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6e113deb-2a06-4d21-9e98-e2f992b2cdad")
 		)
@@ -3367,7 +3538,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148WS"
 			(at 39.37 50.7999 90)
 			(effects
 				(font
@@ -3422,6 +3593,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 36.83 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "026475be-ab9e-4139-a4b4-970c04a41207")
 		)
@@ -3455,7 +3635,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148WS"
 			(at 69.85 35.5599 90)
 			(effects
 				(font
@@ -3510,6 +3690,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 67.31 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e23a279f-7759-4c50-b642-5c0bb43a010a")
 		)
@@ -3543,7 +3732,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148WS"
 			(at 73.66 50.7999 90)
 			(effects
 				(font
@@ -3598,6 +3787,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 71.12 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0429a572-58c9-499d-97ef-e7237e4908c7")
 		)
@@ -3631,7 +3829,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148WS"
 			(at 88.9 50.7999 90)
 			(effects
 				(font
@@ -3686,6 +3884,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2128"
+			(at 86.36 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8957caf0-12da-4d19-9229-c6b8f42cd22c")
 		)
@@ -3719,7 +3926,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "1N4148WS"
 			(at 39.37 66.0399 90)
 			(effects
 				(font
@@ -3767,6 +3974,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 36.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 36.83 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3834,6 +4050,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 62.23 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41430893"
 			(at 62.23 30.48 0)
 			(effects
 				(font
