@@ -5476,6 +5476,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C51118"
+			(at 80.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "5d1eafe6-10f2-4475-9434-7ea2a4d69b84")
 		)
@@ -6839,6 +6848,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C115360"
+			(at 121.92 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a753e22-faeb-41f5-a5de-6ff9382f682f")
 		)
@@ -7039,6 +7057,15 @@
 			)
 		)
 		(property "Description" "16Mbit / 2MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, USON-8 2x3mm"
+			(at 124.46 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2843335"
 			(at 124.46 83.82 0)
 			(effects
 				(font
@@ -9090,6 +9117,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2040"
+			(at 187.96 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "26"
 			(uuid "8208b61d-5329-4d29-bb61-c16557f25319")
 		)
@@ -9392,6 +9428,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 223.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C262264"
 			(at 223.52 111.76 0)
 			(effects
 				(font
@@ -10197,6 +10242,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 133.35 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C115360"
 			(at 133.35 144.78 0)
 			(effects
 				(font
