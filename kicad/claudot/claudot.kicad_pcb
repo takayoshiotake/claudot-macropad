@@ -1602,7 +1602,7 @@
 	(footprint "Library:R_0402"
 		(layer "F.Cu")
 		(uuid "3148c4ca-a276-4c53-94a8-be7108b1f735")
-		(at 60.0375 49.405 -90)
+		(at 60.7000 49.0000 -90)
 		(property "Reference" "R2"
 			(at 0 -1.5 270)
 			(unlocked yes)
@@ -3029,7 +3029,7 @@
 	(footprint "Library:C_0402"
 		(layer "F.Cu")
 		(uuid "3a9f23ed-8c2b-4ab0-b7ad-eaf321c0c19e")
-		(at 61.0375 49.405 -90)
+		(at 61.7000 49.0000 -90)
 		(property "Reference" "C7"
 			(at 0 -1.5 270)
 			(unlocked yes)
@@ -3512,7 +3512,7 @@
 	(footprint "Library:W25Q16JVUXIQ"
 		(layer "F.Cu")
 		(uuid "42ad3d7a-853d-4996-b9dd-5748ed2846cc")
-		(at 55.9625 38.855 -90)
+		(at 57.2000 39.2000 -90)
 		(descr "https://www.winbond.com/hq/product/code-storage-flash-memory/serial-nor-flash/?__locale=ja&partNo=W25Q16JV")
 		(tags "16MBit, USON8 2x3m, C2843335")
 		(property "Reference" "U2"
@@ -3778,7 +3778,7 @@
 	(footprint "Library:C_0402"
 		(layer "F.Cu")
 		(uuid "4b91d6b6-9f57-46da-959c-04bffc994b63")
-		(at 53.9875 51.055 180)
+		(at 55.2000 50.3000 180)
 		(property "Reference" "C2"
 			(at 0 -1.5 180)
 			(unlocked yes)
@@ -3939,7 +3939,7 @@
 	(footprint "Library:C_0402"
 		(layer "F.Cu")
 		(uuid "50141077-5e72-47c6-a472-ddc5ac3c93e5")
-		(at 53.9875 48.755 180)
+		(at 55.2000 48.0000 180)
 		(property "Reference" "C1"
 			(at 0 -1.5 180)
 			(unlocked yes)
@@ -4100,7 +4100,7 @@
 	(footprint "Library:C_0402"
 		(layer "F.Cu")
 		(uuid "552b0f15-0564-4b10-9ce5-2fabb340d652")
-		(at 62.0375 49.405 -90)
+		(at 62.7000 49.0000 -90)
 		(property "Reference" "C13"
 			(at 0 -1.5 270)
 			(unlocked yes)
@@ -6381,7 +6381,7 @@
 	(footprint "Library:R_0402"
 		(layer "F.Cu")
 		(uuid "7b349522-5456-4972-be24-65f7c49625c0")
-		(at 53.7125 42.58 180)
+		(at 55.1000 42.3000 180)
 		(property "Reference" "R4"
 			(at 0 -1.5 180)
 			(unlocked yes)
@@ -8393,7 +8393,7 @@
 	(footprint "Library:C_0402"
 		(layer "F.Cu")
 		(uuid "9b5fc0fd-444a-4e32-a989-874fd24e9291")
-		(at 55.6125 45.38 180)
+		(at 57.0000 45.1000 180)
 		(property "Reference" "C6"
 			(at 0 -1.5 180)
 			(unlocked yes)
@@ -9120,7 +9120,7 @@
 	(footprint "Library:SKRP_Switch"
 		(layer "F.Cu")
 		(uuid "adf32efa-ae2f-4609-a681-cc014c1eeb95")
-		(at 50.6 40.175 -90)
+		(at 53.2000 39.8000 -90)
 		(tags "ALPSALPINE, SKRPABE010, C115360")
 		(property "Reference" "SW2"
 			(at 0 -2.436 270)
@@ -10054,7 +10054,7 @@
 	(footprint "Library:C_0402"
 		(layer "F.Cu")
 		(uuid "bb1cbee2-fae6-482a-88fa-5040921fe504")
-		(at 55.6125 41.58 180)
+		(at 57.0000 41.3000 180)
 		(property "Reference" "C5"
 			(at 0 -1.5 180)
 			(unlocked yes)
@@ -13833,7 +13833,7 @@
 	(footprint "Library:R_0402"
 		(layer "F.Cu")
 		(uuid "d45145e4-97b1-40c3-9798-fdabca2f89b5")
-		(at 63.0375 49.405 90)
+		(at 63.7000 49.0000 90)
 		(property "Reference" "R1"
 			(at 0 -1.5 90)
 			(unlocked yes)
@@ -14351,7 +14351,7 @@
 	(footprint "Library:SKRP_Switch"
 		(layer "F.Cu")
 		(uuid "d9384c6e-c709-4bcf-8540-050d3a00fe1c")
-		(at 50.6 45.85 -90)
+		(at 53.2000 44.8000 -90)
 		(tags "ALPSALPINE, SKRPABE010, C115360")
 		(property "Reference" "SW1"
 			(at 0 -2.436 270)
@@ -15481,7 +15481,7 @@
 	(footprint "Library:SMD3225-4P"
 		(layer "F.Cu")
 		(uuid "f01cdf3f-7e9c-4f47-abeb-6b60040e1499")
-		(at 57.1375 49.905)
+		(at 58.4000 49.0000 0)
 		(property "Reference" "Y1"
 			(at -2.197 -2.435 0)
 			(unlocked yes)
@@ -16819,7 +16819,7 @@
 	(footprint "Library:R_0402"
 		(layer "F.Cu")
 		(uuid "f2d5a4f6-7589-4ad5-9569-d36d67266071")
-		(at 55.6125 42.58 180)
+		(at 57.0000 42.3000 180)
 		(property "Reference" "R3"
 			(at 0 -1.5 180)
 			(unlocked yes)

@@ -19,6 +19,15 @@ The word **"句"** (*ku*) refers to either a phrase or a clause — a unit of me
 Just as a sentence ends with a dot,
 a thought ends with a key.
 
+
+## Export edited files
+
+You can export the latest edited deliverables with:
+
+```bash
+tools/export_latest_edit.sh HEAD exported
+```
+
 ## License
 
 This work is licensed under a
