@@ -58,6 +58,21 @@ Column ──|>|── Switch ── Row
 | ROW1 | GP**22** |
 | ROW2 | GP24 |
 
+## Vial
+
+Prebuilt firmware: [claudot_vial.uf2](assets/claudot_vial.uf2).
+
+### Build with Docker
+
+Copy the `vial/claudot` directory to `path/to/your/vial-qmk/keyboards/`.
+
+```bash
+SKIP_FLASHING_SUPPORT=1 util/docker_build.sh claudot:vial
+```
+
+- <https://get.vial.today/docs/porting-to-vial.html>
+- <https://docs.qmk.fm/getting_started_docker>
+
 ## License
 
 This work is licensed under a
