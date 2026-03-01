@@ -21,8 +21,12 @@ a thought ends with a key.
 
 ## Schematic
 
-![PCB schematic](assets/Claudot_PCB.svg)
+This project was designed using KiCad.
+All design files (schematic and PCB layout) are available in the `kicad/` directory.
 
+Open the `.kicad_pro` file with KiCad to view or edit the project.
+
+![PCB schematic](assets/Claudot_PCB.svg)
 ![MCU schematic](assets/Claudot_MCU.svg)
 
 ### FFC Connection
@@ -41,6 +45,18 @@ Diodes are configured in the `COL2ROW` direction.
 Column ──|>|── Switch ── Row
       (A)   (K)
 ```
+
+### Pin Mapping
+
+| Key Matrix | RP2040 |
+|---|---|
+| COL0 | GP18 |
+| COL1 | GP19 |
+| COL2 | GP20 |
+| COL3 | GP21 |
+| ROW0 | GP**23** |
+| ROW1 | GP**22** |
+| ROW2 | GP24 |
 
 ## License
 
