@@ -19,6 +19,29 @@ The word **"句"** (*ku*) refers to either a phrase or a clause — a unit of me
 Just as a sentence ends with a dot,
 a thought ends with a key.
 
+## Schematic
+
+![PCB schematic](assets/Claudot_PCB.svg)
+
+![MCU schematic](assets/Claudot_MCU.svg)
+
+### FFC Connection
+
+J1 (PCB) and J2 (MCU) are connected using a 0.5 mm pitch, 8-circuit FFC cable (e.g., MOLEX 15166 series compatible).
+
+> [!CAUTION]
+> The pin numbering is mirrored between J1 and J2 (1 ↔ 8, 2 ↔ 7, 3 ↔ 6, 4 ↔ 5).
+
+### Key Matrix
+
+This keyboard uses a 3-row by 4-column matrix (12 keys total).
+Diodes are configured in the `COL2ROW` direction.
+
+```
+Column ──|>|── Switch ── Row
+      (A)   (K)
+```
+
 ## License
 
 This work is licensed under a
