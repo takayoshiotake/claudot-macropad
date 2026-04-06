@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="10mm"
+   height="10mm"
+   viewBox="0 0 10 10"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="key-a-path.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="13.655691"
+     inkscape:cx="19.698747"
+     inkscape:cy="18.673533"
+     inkscape:window-width="1664"
+     inkscape:window-height="1027"
+     inkscape:window-x="519"
+     inkscape:window-y="32"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="0.99999997"
+       spacingy="0.99999997"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="M 5.6959097,5.7717015 H 3.8872334 l -0.316949,0.7372509 q -0.1171333,0.2721627 -0.1171333,0.4065215 0,0.1067981 0.099908,0.1894804 0.1033529,0.079237 0.4409725,0.1033529 V 7.3357759 H 2.5229747 V 7.2083072 q 0.2928333,-0.051676 0.3789608,-0.1343588 0.1757,-0.1653647 0.389296,-0.671794 L 4.9345431,2.5574253 h 0.1205785 l 1.6260861,3.8860702 q 0.1963705,0.4685333 0.354845,0.6097823 0.1619196,0.1378039 0.4478627,0.1550294 V 7.3357759 H 5.6407882 V 7.2083072 q 0.2790529,-0.01378 0.3755156,-0.093018 0.099908,-0.079237 0.099908,-0.1929255 0,-0.1515843 -0.1378039,-0.4788686 z M 5.599447,5.5167643 4.8070745,3.6288507 3.9940315,5.5167643 Z"
+       id="text1"
+       style="font-size:7.05556px;line-height:1;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;text-anchor:middle;stroke-width:0.2"
+       aria-label="A" />
+  </g>
+</svg>
